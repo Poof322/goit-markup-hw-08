@@ -2,7 +2,7 @@
     padding: 60px 0;
     background: #2f303a;
 
-    .footer__box {
+    &__box {
       display: flex;
       gap: 70px;
       align-items: baseline;
@@ -67,8 +67,9 @@
   }
   
   
-  
-  .net__title {
+  .net{
+
+  &__title {
     margin-bottom: 20px;
     font-weight: 700;
     font-size: 14px;
@@ -79,6 +80,7 @@
     font-style: normal;
     color: #ffffff;
     text-align: left;
+  }
 
     &__list {
       display: flex;
@@ -114,59 +116,58 @@
 
 
 
+    .mailbox{
 
+    &__title {
+      margin-bottom: 20px;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 16px;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      color: #FFFFFF;
+    }
 
-  .mailbox__title{
-    margin-bottom: 20px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #FFFFFF;
+      &__input {
+        width: 358px;
+        height: 50px;
+        padding: 15px;
+        color: #ffffff;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        background: transparent;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+  
+      &__button {
+        position: relative;
+        width: 200px;
+        height: 50px;
+        margin-left: 12px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 30px;
+        align-items: center;
+        justify-content: center;
+        letter-spacing: 0.06em;
+        color: #FFFFFF;
+        background-color: #2196f3;
+        border-color: #2196f3;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+  
+      &__icon {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-left: 10px;
+        fill: #FFFFFF;
+    }
 
-  &__input{
-    width:358px ;
-    height: 50px;
-    padding: 15px;
-    color: #ffffff;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    background: transparent;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  
-  &__button{
-    position: relative;
-    width: 200px;
-    height: 50px;
-    margin-left: 12px;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 30px;
-    align-items: center;
-    justify-content: center;
-    letter-spacing: 0.06em;
-    color: #FFFFFF;
-    background-color: #2196f3;
-    border-color: #2196f3;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  
-  &__icon{
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    margin-left: 10px;
-    fill: #FFFFFF;
-  }
-  
-  
- 
-  }
+    
+    }
+
 
 
   

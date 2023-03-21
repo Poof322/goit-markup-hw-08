@@ -13,7 +13,7 @@
       color: #212121;
     }
     
-    &_menu {
+    &__menu {
       display: flex;
       gap: 30px;
       text-align: center;
@@ -69,7 +69,7 @@
       transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
     
-    .boxcard__link:hover {
+    &__link:hover {
       fill: #ffffff;
       background-color: #2196f3;
   }
