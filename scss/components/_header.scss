@@ -13,6 +13,7 @@
   &__nav{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 93px;
   }
   
@@ -24,10 +25,33 @@
     line-height: 31px;
     letter-spacing: 0.03em;
   }
+
+  &__burger-menu{
+   display: flex;
+   border: 0 solid #ffffff;
+   background-color: #ffffff;
+
+   @media (min-width: 480px){
+    display: none;
+  }
+
+    @media (min-width: 768px){
+      display: none;
+    }
+  }
+
+  &__burger-menu:focus{
+    fill: #2196f3;
+  }
   
   &__menu {
-    display: flex;
+    display: none;
     gap: 50px;
+
+    @media (min-width: 768px) {
+      display: flex;
+
+     }
   }
   
   &__navigation {
@@ -67,11 +91,15 @@
   }
   
   &__address {
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     gap: 50px;
     margin-left: auto;
+
+    @media (min-width: 768px) {
+      display: flex;
+     }
   }
   
   &__icon {
