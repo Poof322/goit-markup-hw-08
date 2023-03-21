@@ -1,0 +1,172 @@
+.footer {
+    padding: 60px 0;
+    background: #2f303a;
+
+    .footer__box {
+      display: flex;
+      gap: 70px;
+      align-items: baseline;
+      text-align: start;
+    }
+  
+  &__logo {
+      font-family: "Raleway";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 31px;
+      margin-top: 0;
+      margin-bottom: 20px;
+      display: inline-block;
+    }
+    
+    &__link {
+      margin-bottom: 9px;
+    }
+    
+    &__link:last-child {
+      margin-bottom: 0;
+    }
+    
+    &__street {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 24px;
+      letter-spacing: 0.03em;
+      color: #ffffff;
+      transition: color 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    &__street:hover {
+      color: #2196f3;
+    }
+    
+  
+  
+  
+    &__address {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 24px;
+      letter-spacing: 0.03em;
+      color: rgba(255, 255, 255, 0.6);
+      transition: color 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    &__address:hover {
+      color: #2196f3;
+  }
+     
+  
+  }
+  
+  
+  
+  .net__title {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    font-family: "Roboto";
+    font-style: normal;
+    color: #ffffff;
+    text-align: left;
+
+    &__list {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+    }
+    
+    &__link {
+      width: 44px;
+      height: 44px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 50%;
+      transition: background-color 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    &__link:hover {
+      background-color: #2196f3;
+    }
+    
+    &__icon {
+      width: 20px;
+      height: 20px;
+      fill: #ffffff;
+  }
+  
+  
+  }
+  
+
+
+
+
+
+  .mailbox__title{
+    margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+
+  &__input{
+    width:358px ;
+    height: 50px;
+    padding: 15px;
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  &__button{
+    position: relative;
+    width: 200px;
+    height: 50px;
+    margin-left: 12px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background-color: #2196f3;
+    border-color: #2196f3;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  &__icon{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 10px;
+    fill: #FFFFFF;
+  }
+  
+  
+ 
+  }
+
+
+  

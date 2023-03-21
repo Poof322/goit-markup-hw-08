@@ -1,0 +1,71 @@
+
+.element{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+
+    &__img {
+      overflow: hidden;
+      position: relative;
+      display: block;
+      transition: box-shadow 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }&
+    
+    &__img:hover {
+      box-shadow: 1px 4px 6px 0px #00000029;
+    }
+    
+    &__box {
+      padding: 20px 24px;
+      border: 1px solid #eeeeee;
+      border-top: none;
+    }
+    
+    &__title {
+      color: #212121;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 36px;
+      margin-bottom: 4px;
+    }
+    
+    &__subtitle {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 30px;
+      color: #757575;
+    }
+    
+    &__img-title {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 370px;
+      height: 294px;
+      color: #ffffff;
+      opacity: 0;
+      transform: translateY(100%);
+      background-color: rgba(33, 150, 243, 0.9);
+      transition: transform 250ms, opacity 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    &__img:hover &__img-title {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    
+   &__img-subtitle {
+      margin: 64px 32px;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 28px;
+      letter-spacing: 0.03em;
+      color: #ffffff;
+  }
+  
+
+  }

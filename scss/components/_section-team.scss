@@ -1,0 +1,78 @@
+.team {
+    margin: 0 auto;
+    background-color: #f5f4fa;
+    padding: 94px 0;
+
+    &__title {
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 42px;
+      text-align: center;
+      letter-spacing: 0.03em;
+      margin-bottom: 50px;
+      color: #212121;
+    }
+    
+    &_menu {
+      display: flex;
+      gap: 30px;
+      text-align: center;
+    }
+    
+    &__card {
+      background: #ffffff;
+      box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+      border-radius: 0px 0px 4px 4px;
+    }
+    
+    &__card-name {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      text-align: center;
+      letter-spacing: 0.03em;
+      color: #212121;
+      padding-top: 30px;
+      margin-bottom: 10px;
+    }
+    
+    &__work-name {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      text-align: center;
+      letter-spacing: 0.03em;
+      color: #757575;
+      text-decoration: none;
+      margin-bottom: 16px;
+  }
+  
+
+  }
+  
+  .boxcard {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 30px;
+
+    &__link {
+      width: 44px;
+      height: 44px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      fill: #afb1b8;
+      transition: fill 250ms, background-color 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    .boxcard__link:hover {
+      fill: #ffffff;
+      background-color: #2196f3;
+  }
+  
+  
+  }
