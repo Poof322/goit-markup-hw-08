@@ -1,43 +1,130 @@
-.mobile-menu{
-position: fixed;
-top: 0;
-left: 0;
-display: none;
-width: 100%;
-max-width: 476px;
-height: 100%;
-background-color: #ffffff;
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    width: 100%;
+    max-width: 468px;
+    height: 100%;
+    background-color: #ffffff;
 
 
-&__is-open{
-    display: block;
-}
+    &.is-open {
+        display: block;
+    }
 
-&__close-button{
-position: absolute;
-top: 10px;
-right: 15px;
-width: 40px;
-height: 40px;
-background-color: #ffffff;
-border: 0 solid #ffffff;
-}
+    &__close-button {
+        position: absolute;
+        right: 15px;
+        top: 10px;
+        width: 40px;
+        height: 40px;
+        fill: #212121;
+        border: 0 solid #ffffff;
+        background-color: #ffffff;
 
-&__nav{
+    }
 
-}
+    &__close-button:focus {
+        fill: #2196F3;
 
-&__link{
+    }
 
-}
+    &__nav {
 
-&__e-address{
+        margin: 48px 0 48px 40px;
 
-}
+    }
 
-&__social-link{
+    &__list {
+        width: 219px;
+        height: 48px;
+        margin-bottom: 32px;
+    }
 
-}
+    &__list:nth-last-child(1) {
+        margin-bottom: 306px;
+    }
+
+    &__link {
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 0.85;
+        letter-spacing: 0.02em;
+
+        color: #212121;
+    }
+
+    &__link:focus {
+        color: #2196F3;
+    }
+
+
+    &__contact-list {
+        width: 320px;
+        height: 40px;
+        margin-bottom: 32px;
+
+    }
+
+    &__contact-list:nth-last-child(1) {
+        margin-bottom: 64px;
+    }
+
+    &__phone {
+
+        left: 40px;
+        top: 562px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 34px;
+        line-height: 0.85;
+
+
+        letter-spacing: 0.02em;
+
+        color: #2196F3;
+
+    }
+
+    &__e-address {
+        height: 28px;
+        width: 231px;
+        left: 40px;
+        top: 634px;
+
+        font-family: Roboto;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: #757575;
+    }
+
+    &__social {}
+
+    &__social-list {
+        display: inline;
+        border-right: 1px solid rgba(33, 33, 33, 0.2);
+        padding-right: 10px;
+        padding-left: 10px;
+        
+    }
+
+    &__social-link {
+        width: 85px;
+        height: 22px;
+        left: 40px;
+        top: 726px;
+        color: #2196F3;
+
+    }
 
 
 }
